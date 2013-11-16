@@ -6,13 +6,13 @@
 //  Copyright (c) 2013 Jobs. All rights reserved.
 //
 
-#import "Jobs_RENDAFirstViewController.h"
+#import "NotificationsViewController.h"
 
-@interface Jobs_RENDAFirstViewController ()
+@interface NotificationsViewController ()
 
 @end
 
-@implementation Jobs_RENDAFirstViewController
+@implementation NotificationsViewController
 
 - (void)viewDidLoad
 {

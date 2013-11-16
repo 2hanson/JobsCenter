@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Jobs_RENDAFirstViewController : UIViewController
+@interface NotificationsViewController : UIViewController
 
 @end

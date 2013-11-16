@@ -10,18 +10,11 @@
 		939146A61835C472004C4AAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939146A51835C472004C4AAE /* UIKit.framework */; };
 		939146A81835C472004C4AAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939146A71835C472004C4AAE /* Foundation.framework */; };
 		939146AA1835C472004C4AAE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939146A91835C472004C4AAE /* CoreGraphics.framework */; };
-		939146B01835C472004C4AAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 939146AE1835C472004C4AAE /* InfoPlist.strings */; };
-		939146B21835C472004C4AAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 939146B11835C472004C4AAE /* main.m */; };
-		939146B61835C472004C4AAE /* Jobs_RENDAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 939146B51835C472004C4AAE /* Jobs_RENDAAppDelegate.m */; };
-		939146BF1835C472004C4AAE /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 939146BD1835C472004C4AAE /* MainStoryboard_iPhone.storyboard */; };
-		939146C21835C472004C4AAE /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 939146C01835C472004C4AAE /* MainStoryboard_iPad.storyboard */; };
 		939146D81835C472004C4AAE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939146D71835C472004C4AAE /* SenTestingKit.framework */; };
 		939146D91835C472004C4AAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939146A51835C472004C4AAE /* UIKit.framework */; };
 		939146DA1835C472004C4AAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939146A71835C472004C4AAE /* Foundation.framework */; };
 		939146E21835C472004C4AAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 939146E01835C472004C4AAE /* InfoPlist.strings */; };
 		939146E51835C472004C4AAE /* JobsCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 939146E41835C472004C4AAE /* JobsCenterTests.m */; };
-		939146F41835C53A004C4AAE /* Jobs_RENDAFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 939146F11835C53A004C4AAE /* Jobs_RENDAFirstViewController.m */; };
-		939146F51835C53A004C4AAE /* Jobs_RENDASecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 939146F31835C53A004C4AAE /* Jobs_RENDASecondViewController.m */; };
 		939146FD1835C544004C4AAE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 939146F61835C544004C4AAE /* Default-568h@2x.png */; };
 		939146FE1835C544004C4AAE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 939146F71835C544004C4AAE /* Default.png */; };
 		939146FF1835C544004C4AAE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 939146F81835C544004C4AAE /* Default@2x.png */; };
@@ -29,6 +22,25 @@
 		939147011835C544004C4AAE /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 939146FA1835C544004C4AAE /* first@2x.png */; };
 		939147021835C544004C4AAE /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 939146FB1835C544004C4AAE /* second.png */; };
 		939147031835C544004C4AAE /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 939146FC1835C544004C4AAE /* second@2x.png */; };
+		93FA0C571837523700C5EDC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93FA0C4F1837523700C5EDC4 /* InfoPlist.strings */; };
+		93FA0C581837523700C5EDC4 /* Jobs_RENDAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FA0C511837523700C5EDC4 /* Jobs_RENDAAppDelegate.m */; };
+		93FA0C591837523700C5EDC4 /* JobsCenter-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93FA0C521837523700C5EDC4 /* JobsCenter-Info.plist */; };
+		93FA0C5A1837523700C5EDC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FA0C541837523700C5EDC4 /* main.m */; };
+		93FA0C5B1837523700C5EDC4 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93FA0C551837523700C5EDC4 /* MainStoryboard_iPad.storyboard */; };
+		93FA0C5C1837523700C5EDC4 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93FA0C561837523700C5EDC4 /* MainStoryboard_iPhone.storyboard */; };
+		93FA0C5F1837C41500C5EDC4 /* InfoURLHelper.m in Resources */ = {isa = PBXBuildFile; fileRef = 93FA0C5E1837C41500C5EDC4 /* InfoURLHelper.m */; };
+		93FA0C641837C57100C5EDC4 /* NotificationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FA0C631837C57100C5EDC4 /* NotificationsViewController.m */; };
+		93FA0C721837CF6700C5EDC4 /* JobsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FA0C711837CF6700C5EDC4 /* JobsViewController.m */; };
+		93FA0C7B1837D37500C5EDC4 /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FA0C7A1837D37500C5EDC4 /* EGORefreshTableHeaderView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		93FA0C801837D43F00C5EDC4 /* blackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 93FA0C7C1837D43F00C5EDC4 /* blackArrow.png */; };
+		93FA0C811837D43F00C5EDC4 /* blackArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93FA0C7D1837D43F00C5EDC4 /* blackArrow@2x.png */; };
+		93FA0C821837D43F00C5EDC4 /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 93FA0C7E1837D43F00C5EDC4 /* blueArrow.png */; };
+		93FA0C831837D43F00C5EDC4 /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93FA0C7F1837D43F00C5EDC4 /* blueArrow@2x.png */; };
+		93FA0C861837D44B00C5EDC4 /* grayArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 93FA0C841837D44B00C5EDC4 /* grayArrow.png */; };
+		93FA0C871837D44B00C5EDC4 /* grayArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93FA0C851837D44B00C5EDC4 /* grayArrow@2x.png */; };
+		93FA0C8A1837D45500C5EDC4 /* whiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 93FA0C881837D45500C5EDC4 /* whiteArrow.png */; };
+		93FA0C8B1837D45500C5EDC4 /* whiteArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93FA0C891837D45500C5EDC4 /* whiteArrow@2x.png */; };
+		93FA0C8D1837D6AE00C5EDC4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93FA0C8C1837D6AE00C5EDC4 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,24 +58,12 @@
 		939146A51835C472004C4AAE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		939146A71835C472004C4AAE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		939146A91835C472004C4AAE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		939146AD1835C472004C4AAE /* JobsCenter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JobsCenter-Info.plist"; sourceTree = "<group>"; };
-		939146AF1835C472004C4AAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		939146B11835C472004C4AAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		939146B31835C472004C4AAE /* JobsCenter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JobsCenter-Prefix.pch"; sourceTree = "<group>"; };
-		939146B41835C472004C4AAE /* Jobs_RENDAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Jobs_RENDAAppDelegate.h; sourceTree = "<group>"; };
-		939146B51835C472004C4AAE /* Jobs_RENDAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jobs_RENDAAppDelegate.m; sourceTree = "<group>"; };
-		939146BE1835C472004C4AAE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		939146C11835C472004C4AAE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		939146D61835C472004C4AAE /* JobsCenterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobsCenterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		939146D71835C472004C4AAE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		939146DF1835C472004C4AAE /* JobsCenterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JobsCenterTests-Info.plist"; sourceTree = "<group>"; };
 		939146E11835C472004C4AAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		939146E31835C472004C4AAE /* JobsCenterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobsCenterTests.h; sourceTree = "<group>"; };
 		939146E41835C472004C4AAE /* JobsCenterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobsCenterTests.m; sourceTree = "<group>"; };
-		939146F01835C53A004C4AAE /* Jobs_RENDAFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Jobs_RENDAFirstViewController.h; path = TabsControllers/Jobs_RENDAFirstViewController.h; sourceTree = "<group>"; };
-		939146F11835C53A004C4AAE /* Jobs_RENDAFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Jobs_RENDAFirstViewController.m; path = TabsControllers/Jobs_RENDAFirstViewController.m; sourceTree = "<group>"; };
-		939146F21835C53A004C4AAE /* Jobs_RENDASecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Jobs_RENDASecondViewController.h; path = TabsControllers/Jobs_RENDASecondViewController.h; sourceTree = "<group>"; };
-		939146F31835C53A004C4AAE /* Jobs_RENDASecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Jobs_RENDASecondViewController.m; path = TabsControllers/Jobs_RENDASecondViewController.m; sourceTree = "<group>"; };
 		939146F61835C544004C4AAE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resource/Default-568h@2x.png"; sourceTree = "<group>"; };
 		939146F71835C544004C4AAE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resource/Default.png; sourceTree = "<group>"; };
 		939146F81835C544004C4AAE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resource/Default@2x.png"; sourceTree = "<group>"; };
@@ -71,6 +71,31 @@
 		939146FA1835C544004C4AAE /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "first@2x.png"; path = "Resource/first@2x.png"; sourceTree = "<group>"; };
 		939146FB1835C544004C4AAE /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = second.png; path = Resource/second.png; sourceTree = "<group>"; };
 		939146FC1835C544004C4AAE /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "second@2x.png"; path = "Resource/second@2x.png"; sourceTree = "<group>"; };
+		93FA0C4F1837523700C5EDC4 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = "Supporting Files/InfoPlist.strings"; sourceTree = "<group>"; };
+		93FA0C501837523700C5EDC4 /* Jobs_RENDAAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Jobs_RENDAAppDelegate.h; path = "Supporting Files/Jobs_RENDAAppDelegate.h"; sourceTree = "<group>"; };
+		93FA0C511837523700C5EDC4 /* Jobs_RENDAAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Jobs_RENDAAppDelegate.m; path = "Supporting Files/Jobs_RENDAAppDelegate.m"; sourceTree = "<group>"; };
+		93FA0C521837523700C5EDC4 /* JobsCenter-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "JobsCenter-Info.plist"; path = "Supporting Files/JobsCenter-Info.plist"; sourceTree = "<group>"; };
+		93FA0C531837523700C5EDC4 /* JobsCenter-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "JobsCenter-Prefix.pch"; path = "Supporting Files/JobsCenter-Prefix.pch"; sourceTree = "<group>"; };
+		93FA0C541837523700C5EDC4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Supporting Files/main.m"; sourceTree = "<group>"; };
+		93FA0C551837523700C5EDC4 /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard_iPad.storyboard; path = "Supporting Files/MainStoryboard_iPad.storyboard"; sourceTree = "<group>"; };
+		93FA0C561837523700C5EDC4 /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard_iPhone.storyboard; path = "Supporting Files/MainStoryboard_iPhone.storyboard"; sourceTree = "<group>"; };
+		93FA0C5D1837C41500C5EDC4 /* InfoURLHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfoURLHelper.h; path = Helpers/InfoURLHelper.h; sourceTree = "<group>"; };
+		93FA0C5E1837C41500C5EDC4 /* InfoURLHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoURLHelper.m; path = Helpers/InfoURLHelper.m; sourceTree = "<group>"; };
+		93FA0C621837C57100C5EDC4 /* NotificationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotificationsViewController.h; path = NotificationsTab/NotificationsViewController.h; sourceTree = "<group>"; };
+		93FA0C631837C57100C5EDC4 /* NotificationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NotificationsViewController.m; path = NotificationsTab/NotificationsViewController.m; sourceTree = "<group>"; };
+		93FA0C701837CF6700C5EDC4 /* JobsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JobsViewController.h; path = JobsTab/Controller/JobsViewController.h; sourceTree = "<group>"; };
+		93FA0C711837CF6700C5EDC4 /* JobsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JobsViewController.m; path = JobsTab/Controller/JobsViewController.m; sourceTree = "<group>"; };
+		93FA0C791837D37500C5EDC4 /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGORefreshTableHeaderView.h; path = JobsTab/View/EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
+		93FA0C7A1837D37500C5EDC4 /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EGORefreshTableHeaderView.m; path = JobsTab/View/EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
+		93FA0C7C1837D43F00C5EDC4 /* blackArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blackArrow.png; path = Resource/blackArrow.png; sourceTree = "<group>"; };
+		93FA0C7D1837D43F00C5EDC4 /* blackArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blackArrow@2x.png"; path = "Resource/blackArrow@2x.png"; sourceTree = "<group>"; };
+		93FA0C7E1837D43F00C5EDC4 /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blueArrow.png; path = Resource/blueArrow.png; sourceTree = "<group>"; };
+		93FA0C7F1837D43F00C5EDC4 /* blueArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blueArrow@2x.png"; path = "Resource/blueArrow@2x.png"; sourceTree = "<group>"; };
+		93FA0C841837D44B00C5EDC4 /* grayArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grayArrow.png; path = Resource/grayArrow.png; sourceTree = "<group>"; };
+		93FA0C851837D44B00C5EDC4 /* grayArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "grayArrow@2x.png"; path = "Resource/grayArrow@2x.png"; sourceTree = "<group>"; };
+		93FA0C881837D45500C5EDC4 /* whiteArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = whiteArrow.png; path = Resource/whiteArrow.png; sourceTree = "<group>"; };
+		93FA0C891837D45500C5EDC4 /* whiteArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "whiteArrow@2x.png"; path = "Resource/whiteArrow@2x.png"; sourceTree = "<group>"; };
+		93FA0C8C1837D6AE00C5EDC4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93FA0C8D1837D6AE00C5EDC4 /* QuartzCore.framework in Frameworks */,
 				939146A61835C472004C4AAE /* UIKit.framework in Frameworks */,
 				939146A81835C472004C4AAE /* Foundation.framework in Frameworks */,
 				939146AA1835C472004C4AAE /* CoreGraphics.framework in Frameworks */,
@@ -120,6 +146,7 @@
 		939146A41835C472004C4AAE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				93FA0C8C1837D6AE00C5EDC4 /* QuartzCore.framework */,
 				939146A51835C472004C4AAE /* UIKit.framework */,
 				939146A71835C472004C4AAE /* Foundation.framework */,
 				939146A91835C472004C4AAE /* CoreGraphics.framework */,
@@ -131,11 +158,9 @@
 		939146AB1835C472004C4AAE /* JobsCenter */ = {
 			isa = PBXGroup;
 			children = (
-				939146EF1835C4AB004C4AAE /* TabsControllers */,
-				939146B41835C472004C4AAE /* Jobs_RENDAAppDelegate.h */,
-				939146B51835C472004C4AAE /* Jobs_RENDAAppDelegate.m */,
-				939146BD1835C472004C4AAE /* MainStoryboard_iPhone.storyboard */,
-				939146C01835C472004C4AAE /* MainStoryboard_iPad.storyboard */,
+				93FA0C611837C50E00C5EDC4 /* JobsTab */,
+				93FA0C601837C4F100C5EDC4 /* NotificationsTab */,
+				93FA0C4E1837516500C5EDC4 /* Helpers */,
 				939146AC1835C472004C4AAE /* Supporting Files */,
 			);
 			path = JobsCenter;
@@ -144,10 +169,14 @@
 		939146AC1835C472004C4AAE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				939146AD1835C472004C4AAE /* JobsCenter-Info.plist */,
-				939146AE1835C472004C4AAE /* InfoPlist.strings */,
-				939146B11835C472004C4AAE /* main.m */,
-				939146B31835C472004C4AAE /* JobsCenter-Prefix.pch */,
+				93FA0C4F1837523700C5EDC4 /* InfoPlist.strings */,
+				93FA0C501837523700C5EDC4 /* Jobs_RENDAAppDelegate.h */,
+				93FA0C511837523700C5EDC4 /* Jobs_RENDAAppDelegate.m */,
+				93FA0C521837523700C5EDC4 /* JobsCenter-Info.plist */,
+				93FA0C531837523700C5EDC4 /* JobsCenter-Prefix.pch */,
+				93FA0C541837523700C5EDC4 /* main.m */,
+				93FA0C551837523700C5EDC4 /* MainStoryboard_iPad.storyboard */,
+				93FA0C561837523700C5EDC4 /* MainStoryboard_iPhone.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -174,6 +203,14 @@
 		939146EE1835C47A004C4AAE /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				93FA0C881837D45500C5EDC4 /* whiteArrow.png */,
+				93FA0C891837D45500C5EDC4 /* whiteArrow@2x.png */,
+				93FA0C841837D44B00C5EDC4 /* grayArrow.png */,
+				93FA0C851837D44B00C5EDC4 /* grayArrow@2x.png */,
+				93FA0C7C1837D43F00C5EDC4 /* blackArrow.png */,
+				93FA0C7D1837D43F00C5EDC4 /* blackArrow@2x.png */,
+				93FA0C7E1837D43F00C5EDC4 /* blueArrow.png */,
+				93FA0C7F1837D43F00C5EDC4 /* blueArrow@2x.png */,
 				939146F61835C544004C4AAE /* Default-568h@2x.png */,
 				939146F71835C544004C4AAE /* Default.png */,
 				939146F81835C544004C4AAE /* Default@2x.png */,
@@ -185,15 +222,57 @@
 			name = Resource;
 			sourceTree = "<group>";
 		};
-		939146EF1835C4AB004C4AAE /* TabsControllers */ = {
+		93FA0C4E1837516500C5EDC4 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				939146F01835C53A004C4AAE /* Jobs_RENDAFirstViewController.h */,
-				939146F11835C53A004C4AAE /* Jobs_RENDAFirstViewController.m */,
-				939146F21835C53A004C4AAE /* Jobs_RENDASecondViewController.h */,
-				939146F31835C53A004C4AAE /* Jobs_RENDASecondViewController.m */,
+				93FA0C5D1837C41500C5EDC4 /* InfoURLHelper.h */,
+				93FA0C5E1837C41500C5EDC4 /* InfoURLHelper.m */,
 			);
-			name = TabsControllers;
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		93FA0C601837C4F100C5EDC4 /* NotificationsTab */ = {
+			isa = PBXGroup;
+			children = (
+				93FA0C621837C57100C5EDC4 /* NotificationsViewController.h */,
+				93FA0C631837C57100C5EDC4 /* NotificationsViewController.m */,
+			);
+			name = NotificationsTab;
+			sourceTree = "<group>";
+		};
+		93FA0C611837C50E00C5EDC4 /* JobsTab */ = {
+			isa = PBXGroup;
+			children = (
+				93FA0C6F1837CF3B00C5EDC4 /* Delegate */,
+				93FA0C6E1837CF2B00C5EDC4 /* View */,
+				93FA0C6D1837CF1500C5EDC4 /* Controller */,
+			);
+			name = JobsTab;
+			sourceTree = "<group>";
+		};
+		93FA0C6D1837CF1500C5EDC4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				93FA0C701837CF6700C5EDC4 /* JobsViewController.h */,
+				93FA0C711837CF6700C5EDC4 /* JobsViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		93FA0C6E1837CF2B00C5EDC4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				93FA0C791837D37500C5EDC4 /* EGORefreshTableHeaderView.h */,
+				93FA0C7A1837D37500C5EDC4 /* EGORefreshTableHeaderView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		93FA0C6F1837CF3B00C5EDC4 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Delegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,15 +347,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				939146B01835C472004C4AAE /* InfoPlist.strings in Resources */,
-				939146BF1835C472004C4AAE /* MainStoryboard_iPhone.storyboard in Resources */,
-				939146C21835C472004C4AAE /* MainStoryboard_iPad.storyboard in Resources */,
+				93FA0C831837D43F00C5EDC4 /* blueArrow@2x.png in Resources */,
+				93FA0C5F1837C41500C5EDC4 /* InfoURLHelper.m in Resources */,
+				93FA0C8B1837D45500C5EDC4 /* whiteArrow@2x.png in Resources */,
+				93FA0C8A1837D45500C5EDC4 /* whiteArrow.png in Resources */,
 				939146FD1835C544004C4AAE /* Default-568h@2x.png in Resources */,
+				93FA0C871837D44B00C5EDC4 /* grayArrow@2x.png in Resources */,
+				93FA0C571837523700C5EDC4 /* InfoPlist.strings in Resources */,
 				939146FE1835C544004C4AAE /* Default.png in Resources */,
+				93FA0C861837D44B00C5EDC4 /* grayArrow.png in Resources */,
 				939146FF1835C544004C4AAE /* Default@2x.png in Resources */,
+				93FA0C801837D43F00C5EDC4 /* blackArrow.png in Resources */,
+				93FA0C5C1837523700C5EDC4 /* MainStoryboard_iPhone.storyboard in Resources */,
+				93FA0C5B1837523700C5EDC4 /* MainStoryboard_iPad.storyboard in Resources */,
+				93FA0C811837D43F00C5EDC4 /* blackArrow@2x.png in Resources */,
 				939147001835C544004C4AAE /* first.png in Resources */,
 				939147011835C544004C4AAE /* first@2x.png in Resources */,
 				939147021835C544004C4AAE /* second.png in Resources */,
+				93FA0C821837D43F00C5EDC4 /* blueArrow.png in Resources */,
+				93FA0C591837523700C5EDC4 /* JobsCenter-Info.plist in Resources */,
 				939147031835C544004C4AAE /* second@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,10 +401,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				939146B21835C472004C4AAE /* main.m in Sources */,
-				939146B61835C472004C4AAE /* Jobs_RENDAAppDelegate.m in Sources */,
-				939146F41835C53A004C4AAE /* Jobs_RENDAFirstViewController.m in Sources */,
-				939146F51835C53A004C4AAE /* Jobs_RENDASecondViewController.m in Sources */,
+				93FA0C7B1837D37500C5EDC4 /* EGORefreshTableHeaderView.m in Sources */,
+				93FA0C721837CF6700C5EDC4 /* JobsViewController.m in Sources */,
+				93FA0C5A1837523700C5EDC4 /* main.m in Sources */,
+				93FA0C641837C57100C5EDC4 /* NotificationsViewController.m in Sources */,
+				93FA0C581837523700C5EDC4 /* Jobs_RENDAAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,30 +428,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		939146AE1835C472004C4AAE /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				939146AF1835C472004C4AAE /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		939146BD1835C472004C4AAE /* MainStoryboard_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				939146BE1835C472004C4AAE /* en */,
-			);
-			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		939146C01835C472004C4AAE /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				939146C11835C472004C4AAE /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
-			sourceTree = "<group>";
-		};
 		939146E01835C472004C4AAE /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -435,8 +501,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JobsCenter/JobsCenter-Prefix.pch";
-				INFOPLIST_FILE = "JobsCenter/JobsCenter-Info.plist";
+				GCC_PREFIX_HEADER = "JobsCenter/Supporting Files/JobsCenter-Prefix.pch";
+				INFOPLIST_FILE = "JobsCenter/Supporting Files/JobsCenter-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -446,8 +512,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JobsCenter/JobsCenter-Prefix.pch";
-				INFOPLIST_FILE = "JobsCenter/JobsCenter-Info.plist";
+				GCC_PREFIX_HEADER = "JobsCenter/Supporting Files/JobsCenter-Prefix.pch";
+				INFOPLIST_FILE = "JobsCenter/Supporting Files/JobsCenter-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -506,6 +572,7 @@
 				939146EA1835C472004C4AAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		939146EB1835C472004C4AAE /* Build configuration list for PBXNativeTarget "JobsCenterTests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +581,7 @@
 				939146ED1835C472004C4AAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
