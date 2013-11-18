@@ -22,6 +22,9 @@
 		939147011835C544004C4AAE /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 939146FA1835C544004C4AAE /* first@2x.png */; };
 		939147021835C544004C4AAE /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 939146FB1835C544004C4AAE /* second.png */; };
 		939147031835C544004C4AAE /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 939146FC1835C544004C4AAE /* second@2x.png */; };
+		93A7EC9C1839EE65007835BB /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A7EC9B1839EE65007835BB /* EGORefreshTableHeaderView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		93A7ECA71839FC30007835BB /* LoadMoreTableFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A7ECA61839FC30007835BB /* LoadMoreTableFooterView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		93A7ECAB183A0470007835BB /* EnLoadingMoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A7ECAA183A0470007835BB /* EnLoadingMoreView.m */; };
 		93FA0C571837523700C5EDC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93FA0C4F1837523700C5EDC4 /* InfoPlist.strings */; };
 		93FA0C581837523700C5EDC4 /* Jobs_RENDAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FA0C511837523700C5EDC4 /* Jobs_RENDAAppDelegate.m */; };
 		93FA0C591837523700C5EDC4 /* JobsCenter-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93FA0C521837523700C5EDC4 /* JobsCenter-Info.plist */; };
@@ -31,7 +34,6 @@
 		93FA0C5F1837C41500C5EDC4 /* InfoURLHelper.m in Resources */ = {isa = PBXBuildFile; fileRef = 93FA0C5E1837C41500C5EDC4 /* InfoURLHelper.m */; };
 		93FA0C641837C57100C5EDC4 /* NotificationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FA0C631837C57100C5EDC4 /* NotificationsViewController.m */; };
 		93FA0C721837CF6700C5EDC4 /* JobsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FA0C711837CF6700C5EDC4 /* JobsViewController.m */; };
-		93FA0C7B1837D37500C5EDC4 /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FA0C7A1837D37500C5EDC4 /* EGORefreshTableHeaderView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		93FA0C801837D43F00C5EDC4 /* blackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 93FA0C7C1837D43F00C5EDC4 /* blackArrow.png */; };
 		93FA0C811837D43F00C5EDC4 /* blackArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93FA0C7D1837D43F00C5EDC4 /* blackArrow@2x.png */; };
 		93FA0C821837D43F00C5EDC4 /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 93FA0C7E1837D43F00C5EDC4 /* blueArrow.png */; };
@@ -71,6 +73,12 @@
 		939146FA1835C544004C4AAE /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "first@2x.png"; path = "Resource/first@2x.png"; sourceTree = "<group>"; };
 		939146FB1835C544004C4AAE /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = second.png; path = Resource/second.png; sourceTree = "<group>"; };
 		939146FC1835C544004C4AAE /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "second@2x.png"; path = "Resource/second@2x.png"; sourceTree = "<group>"; };
+		93A7EC9A1839EE65007835BB /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGORefreshTableHeaderView.h; path = Lib/RefreshTableHeaderView/EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
+		93A7EC9B1839EE65007835BB /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EGORefreshTableHeaderView.m; path = Lib/RefreshTableHeaderView/EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
+		93A7ECA51839FC30007835BB /* LoadMoreTableFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoadMoreTableFooterView.h; path = Lib/LoadMoreTableFooterView/LoadMoreTableFooterView.h; sourceTree = "<group>"; };
+		93A7ECA61839FC30007835BB /* LoadMoreTableFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoadMoreTableFooterView.m; path = Lib/LoadMoreTableFooterView/LoadMoreTableFooterView.m; sourceTree = "<group>"; };
+		93A7ECA9183A0470007835BB /* EnLoadingMoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EnLoadingMoreView.h; path = Lib/EnLoadingMoreView/EnLoadingMoreView.h; sourceTree = "<group>"; };
+		93A7ECAA183A0470007835BB /* EnLoadingMoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EnLoadingMoreView.m; path = Lib/EnLoadingMoreView/EnLoadingMoreView.m; sourceTree = "<group>"; };
 		93FA0C4F1837523700C5EDC4 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = "Supporting Files/InfoPlist.strings"; sourceTree = "<group>"; };
 		93FA0C501837523700C5EDC4 /* Jobs_RENDAAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Jobs_RENDAAppDelegate.h; path = "Supporting Files/Jobs_RENDAAppDelegate.h"; sourceTree = "<group>"; };
 		93FA0C511837523700C5EDC4 /* Jobs_RENDAAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Jobs_RENDAAppDelegate.m; path = "Supporting Files/Jobs_RENDAAppDelegate.m"; sourceTree = "<group>"; };
@@ -85,8 +93,6 @@
 		93FA0C631837C57100C5EDC4 /* NotificationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NotificationsViewController.m; path = NotificationsTab/NotificationsViewController.m; sourceTree = "<group>"; };
 		93FA0C701837CF6700C5EDC4 /* JobsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JobsViewController.h; path = JobsTab/Controller/JobsViewController.h; sourceTree = "<group>"; };
 		93FA0C711837CF6700C5EDC4 /* JobsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JobsViewController.m; path = JobsTab/Controller/JobsViewController.m; sourceTree = "<group>"; };
-		93FA0C791837D37500C5EDC4 /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGORefreshTableHeaderView.h; path = JobsTab/View/EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
-		93FA0C7A1837D37500C5EDC4 /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EGORefreshTableHeaderView.m; path = JobsTab/View/EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
 		93FA0C7C1837D43F00C5EDC4 /* blackArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blackArrow.png; path = Resource/blackArrow.png; sourceTree = "<group>"; };
 		93FA0C7D1837D43F00C5EDC4 /* blackArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blackArrow@2x.png"; path = "Resource/blackArrow@2x.png"; sourceTree = "<group>"; };
 		93FA0C7E1837D43F00C5EDC4 /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blueArrow.png; path = Resource/blueArrow.png; sourceTree = "<group>"; };
@@ -126,6 +132,7 @@
 		939146991835C472004C4AAE = {
 			isa = PBXGroup;
 			children = (
+				93A7EC981839EE19007835BB /* Lib */,
 				939146EE1835C47A004C4AAE /* Resource */,
 				939146AB1835C472004C4AAE /* JobsCenter */,
 				939146DD1835C472004C4AAE /* JobsCenterTests */,
@@ -222,6 +229,43 @@
 			name = Resource;
 			sourceTree = "<group>";
 		};
+		93A7EC981839EE19007835BB /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				93A7ECA8183A0447007835BB /* EnLoadingMoreView */,
+				93A7ECA41839FC00007835BB /* LoadMoreTableFooterView */,
+				93A7EC991839EE29007835BB /* RefreshTableHeaderView */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		93A7EC991839EE29007835BB /* RefreshTableHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				93A7EC9A1839EE65007835BB /* EGORefreshTableHeaderView.h */,
+				93A7EC9B1839EE65007835BB /* EGORefreshTableHeaderView.m */,
+			);
+			name = RefreshTableHeaderView;
+			sourceTree = "<group>";
+		};
+		93A7ECA41839FC00007835BB /* LoadMoreTableFooterView */ = {
+			isa = PBXGroup;
+			children = (
+				93A7ECA51839FC30007835BB /* LoadMoreTableFooterView.h */,
+				93A7ECA61839FC30007835BB /* LoadMoreTableFooterView.m */,
+			);
+			name = LoadMoreTableFooterView;
+			sourceTree = "<group>";
+		};
+		93A7ECA8183A0447007835BB /* EnLoadingMoreView */ = {
+			isa = PBXGroup;
+			children = (
+				93A7ECA9183A0470007835BB /* EnLoadingMoreView.h */,
+				93A7ECAA183A0470007835BB /* EnLoadingMoreView.m */,
+			);
+			name = EnLoadingMoreView;
+			sourceTree = "<group>";
+		};
 		93FA0C4E1837516500C5EDC4 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -262,8 +306,6 @@
 		93FA0C6E1837CF2B00C5EDC4 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				93FA0C791837D37500C5EDC4 /* EGORefreshTableHeaderView.h */,
-				93FA0C7A1837D37500C5EDC4 /* EGORefreshTableHeaderView.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -401,7 +443,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93FA0C7B1837D37500C5EDC4 /* EGORefreshTableHeaderView.m in Sources */,
+				93A7EC9C1839EE65007835BB /* EGORefreshTableHeaderView.m in Sources */,
+				93A7ECAB183A0470007835BB /* EnLoadingMoreView.m in Sources */,
+				93A7ECA71839FC30007835BB /* LoadMoreTableFooterView.m in Sources */,
 				93FA0C721837CF6700C5EDC4 /* JobsViewController.m in Sources */,
 				93FA0C5A1837523700C5EDC4 /* main.m in Sources */,
 				93FA0C641837C57100C5EDC4 /* NotificationsViewController.m in Sources */,

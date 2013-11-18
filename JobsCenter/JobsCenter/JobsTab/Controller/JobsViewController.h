@@ -7,14 +7,15 @@
 //
 
 #import "EGORefreshTableHeaderView.h"
+#import "EnLoadingMoreView.h"
 
-@interface JobsViewController : UITableViewController <EGORefreshTableHeaderDelegate, UITableViewDelegate, UITableViewDataSource>{
-	
-	EGORefreshTableHeaderView *_refreshHeaderView;
+@interface JobsViewController : UITableViewController <EnLoadingMoreViewDelegate, EGORefreshTableHeaderDelegate, UITableViewDelegate, UITableViewDataSource>{
     
-	//  Reloading var should really be your tableviews datasource
-	//  Putting it here for demo purposes
+    // 下拉刷新以及上拉更多相关
+    EGORefreshTableHeaderView* _refreshHeaderView;
 	BOOL _reloading;
+    BOOL _isHasMore;
+    EnLoadingMoreView* _loadingMoreView;
 }
 
 - (void)reloadTableViewDataSource;

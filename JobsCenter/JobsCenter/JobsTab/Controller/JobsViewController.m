@@ -28,15 +28,26 @@
     [super viewDidLoad];
     //为了让下拉刷新能正常工作,http://www.cocoachina.com/bbs/simple/?t154091.html
     self.edgesForExtendedLayout = UIRectEdgeNone;
+    
 	if (_refreshHeaderView == nil) {
-		EGORefreshTableHeaderView *view = [[EGORefreshTableHeaderView alloc] initWithFrame:CGRectMake(0.0f, 0.0f - self.tableView.bounds.size.height, self.view.frame.size.width, self.tableView.bounds.size.height)];
-		view.delegate = self;
-		[self.tableView addSubview:view];
-		_refreshHeaderView = view;
+		_refreshHeaderView = [[EGORefreshTableHeaderView alloc] initWithFrame:CGRectMake(0.0f, 0.0f - self.tableView.bounds.size.height, self.view.frame.size.width, self.tableView.bounds.size.height)];
+		_refreshHeaderView.delegate = self;
+		[self.tableView addSubview:_refreshHeaderView];
+        
+	}
+    
+    if (_loadingMoreView == nil) {
+		_loadingMoreView = [[EnLoadingMoreView alloc] initWithFrame:CGRectZero];
+        _loadingMoreView.loadingMoreDelegate = self;
+        [self.tableView addSubview:_loadingMoreView];
 		
 	}
-	//  update the last update date
-	[_refreshHeaderView refreshLastUpdatedDate];
+    
+    //加载数据
+    _isHasMore = YES;
+    _reloading = YES;
+    [_refreshHeaderView setLoadingStateWithScrollView:self.tableView];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -51,21 +62,23 @@
 {
 #warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return 3;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
 #warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    return 4;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
-    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+    }
     // Configure the cell...
     
     return cell;
@@ -123,59 +136,57 @@
  */
 
 #pragma mark -
-#pragma mark Data Source Loading / Reloading Methods
-
-- (void)reloadTableViewDataSource{
-	
-	//  should be calling your tableviews data source model to reload
-	//  put here just for demo
-	_reloading = YES;
-	
+#pragma mark UIScrollViewDelegate Methods
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+	[_refreshHeaderView egoRefreshScrollViewDidScroll:scrollView];
 }
-
-- (void)doneLoadingTableViewData{
-	
-	//  model should call this when its done loading
-	_reloading = NO;
-	[_refreshHeaderView egoRefreshScrollViewDataSourceDidFinishedLoading:self.tableView];
-	
+- (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate {
+	[_refreshHeaderView egoRefreshScrollViewDidEndDragging:scrollView];
+    [_loadingMoreView enLoadingMoreScrollViewDidEndDragging:scrollView];
 }
 
 #pragma mark -
-#pragma mark UIScrollViewDelegate Methods
-
-- (void)scrollViewDidScroll:(UIScrollView *)scrollView{
-	
-	[_refreshHeaderView egoRefreshScrollViewDidScroll:scrollView];
-    
+#pragma mark 重新将数据加载到view的方法
+- (void)doneLoadingReloadData {
+    [_refreshHeaderView egoRefreshScrollViewDataSourceDidFinishedLoading:self.tableView];
+    [_loadingMoreView enLoadingMoreScrollViewDataSourceDidFinishedLoading:self.tableView]; // 这个状态会更改loading moreview 的位置
+    _reloading = NO;
+}
+- (void)doneLoadingMoreData {
+    [_loadingMoreView enLoadingMoreScrollViewDataSourceDidFinishedLoading:self.tableView];
+    _reloading = NO;
 }
 
-- (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate{
-	
-	[_refreshHeaderView egoRefreshScrollViewDidEndDragging:scrollView];
-	
+#pragma mark -
+#pragma mark ENLoadingMoreView Delegate
+- (BOOL)enLoadingMoreViewDataSourceHasMore:(EnLoadingMoreView *)view {
+    return _isHasMore;
+}
+
+- (BOOL)enLoadingMoreViewDataSourceIsLoading:(EnLoadingMoreView *)view {
+    return _reloading;
+}
+
+- (void)enLoadingMoreViewTriggerRefresh:(EnLoadingMoreView *)view {
+    _reloading = YES;
+    [self performSelector:@selector(doneLoadingMoreData) withObject:nil afterDelay:3.0];
+    //[self performSelectorInBackground:@selector(loadingMoreDataRequest) withObject:nil]; // 在子线程中请求数据
 }
 
 #pragma mark -
 #pragma mark EGORefreshTableHeaderDelegate Methods
-
-- (void)egoRefreshTableHeaderDidTriggerRefresh:(EGORefreshTableHeaderView*)view{
-	
-	[self reloadTableViewDataSource];
-	[self performSelector:@selector(doneLoadingTableViewData) withObject:nil afterDelay:3.0];
-	
+- (void)egoRefreshTableHeaderDidTriggerRefresh:(EGORefreshTableHeaderView*)view {
+	_reloading = YES;
+    [self performSelector:@selector(doneLoadingReloadData) withObject:nil afterDelay:3.0];
+    //[self performSelectorInBackground:@selector(reloadDataRequest) withObject:nil]; // 在子线程中请求数据
 }
 
-- (BOOL)egoRefreshTableHeaderDataSourceIsLoading:(EGORefreshTableHeaderView*)view{
-	
+- (BOOL)egoRefreshTableHeaderDataSourceIsLoading:(EGORefreshTableHeaderView*)view {
 	return _reloading; // should return if data source model is reloading
-	
 }
 
-- (NSDate*)egoRefreshTableHeaderDataSourceLastUpdated:(EGORefreshTableHeaderView*)view{
-	
-	return [NSDate date]; // should return date data source was last changed
-	
+- (NSDate*)egoRefreshTableHeaderDataSourceLastUpdated:(EGORefreshTableHeaderView*)view {
+	return nil; // should return date data source was last changed
 }
 
 @end
