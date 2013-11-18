@@ -6,13 +6,13 @@
 //  Copyright (c) 2013 Jobs. All rights reserved.
 //
 
-#import "JobsViewController.h"
+#import "GuidanceViewController.h"
 
-@interface JobsViewController ()
+@interface GuidanceViewController ()
 
 @end
 
-@implementation JobsViewController
+@implementation GuidanceViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {

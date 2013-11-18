@@ -23,17 +23,16 @@
 		939147021835C544004C4AAE /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 939146FB1835C544004C4AAE /* second.png */; };
 		939147031835C544004C4AAE /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 939146FC1835C544004C4AAE /* second@2x.png */; };
 		93A7EC9C1839EE65007835BB /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A7EC9B1839EE65007835BB /* EGORefreshTableHeaderView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		93A7ECA71839FC30007835BB /* LoadMoreTableFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A7ECA61839FC30007835BB /* LoadMoreTableFooterView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		93A7ECAB183A0470007835BB /* EnLoadingMoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A7ECAA183A0470007835BB /* EnLoadingMoreView.m */; };
+		93A7ECAE183A4C7A007835BB /* GuidanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A7ECAD183A4C7A007835BB /* GuidanceViewController.m */; };
+		93A7ECB3183A4D41007835BB /* Jobs_RENDAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A7ECB0183A4D41007835BB /* Jobs_RENDAAppDelegate.m */; };
+		93A7ECB4183A4D41007835BB /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93A7ECB1183A4D41007835BB /* MainStoryboard_iPad.storyboard */; };
+		93A7ECB5183A4D41007835BB /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93A7ECB2183A4D41007835BB /* MainStoryboard_iPhone.storyboard */; };
 		93FA0C571837523700C5EDC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93FA0C4F1837523700C5EDC4 /* InfoPlist.strings */; };
-		93FA0C581837523700C5EDC4 /* Jobs_RENDAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FA0C511837523700C5EDC4 /* Jobs_RENDAAppDelegate.m */; };
 		93FA0C591837523700C5EDC4 /* JobsCenter-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93FA0C521837523700C5EDC4 /* JobsCenter-Info.plist */; };
 		93FA0C5A1837523700C5EDC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FA0C541837523700C5EDC4 /* main.m */; };
-		93FA0C5B1837523700C5EDC4 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93FA0C551837523700C5EDC4 /* MainStoryboard_iPad.storyboard */; };
-		93FA0C5C1837523700C5EDC4 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93FA0C561837523700C5EDC4 /* MainStoryboard_iPhone.storyboard */; };
 		93FA0C5F1837C41500C5EDC4 /* InfoURLHelper.m in Resources */ = {isa = PBXBuildFile; fileRef = 93FA0C5E1837C41500C5EDC4 /* InfoURLHelper.m */; };
 		93FA0C641837C57100C5EDC4 /* NotificationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FA0C631837C57100C5EDC4 /* NotificationsViewController.m */; };
-		93FA0C721837CF6700C5EDC4 /* JobsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FA0C711837CF6700C5EDC4 /* JobsViewController.m */; };
 		93FA0C801837D43F00C5EDC4 /* blackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 93FA0C7C1837D43F00C5EDC4 /* blackArrow.png */; };
 		93FA0C811837D43F00C5EDC4 /* blackArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93FA0C7D1837D43F00C5EDC4 /* blackArrow@2x.png */; };
 		93FA0C821837D43F00C5EDC4 /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 93FA0C7E1837D43F00C5EDC4 /* blueArrow.png */; };
@@ -75,24 +74,22 @@
 		939146FC1835C544004C4AAE /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "second@2x.png"; path = "Resource/second@2x.png"; sourceTree = "<group>"; };
 		93A7EC9A1839EE65007835BB /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGORefreshTableHeaderView.h; path = Lib/RefreshTableHeaderView/EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
 		93A7EC9B1839EE65007835BB /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EGORefreshTableHeaderView.m; path = Lib/RefreshTableHeaderView/EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
-		93A7ECA51839FC30007835BB /* LoadMoreTableFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoadMoreTableFooterView.h; path = Lib/LoadMoreTableFooterView/LoadMoreTableFooterView.h; sourceTree = "<group>"; };
-		93A7ECA61839FC30007835BB /* LoadMoreTableFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoadMoreTableFooterView.m; path = Lib/LoadMoreTableFooterView/LoadMoreTableFooterView.m; sourceTree = "<group>"; };
 		93A7ECA9183A0470007835BB /* EnLoadingMoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EnLoadingMoreView.h; path = Lib/EnLoadingMoreView/EnLoadingMoreView.h; sourceTree = "<group>"; };
 		93A7ECAA183A0470007835BB /* EnLoadingMoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EnLoadingMoreView.m; path = Lib/EnLoadingMoreView/EnLoadingMoreView.m; sourceTree = "<group>"; };
+		93A7ECAC183A4C7A007835BB /* GuidanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GuidanceViewController.h; path = GuidanceTab/Controller/GuidanceViewController.h; sourceTree = "<group>"; };
+		93A7ECAD183A4C7A007835BB /* GuidanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GuidanceViewController.m; path = GuidanceTab/Controller/GuidanceViewController.m; sourceTree = "<group>"; };
+		93A7ECAF183A4D41007835BB /* Jobs_RENDAAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jobs_RENDAAppDelegate.h; sourceTree = "<group>"; };
+		93A7ECB0183A4D41007835BB /* Jobs_RENDAAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jobs_RENDAAppDelegate.m; sourceTree = "<group>"; };
+		93A7ECB1183A4D41007835BB /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		93A7ECB2183A4D41007835BB /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		93FA0C4F1837523700C5EDC4 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = "Supporting Files/InfoPlist.strings"; sourceTree = "<group>"; };
-		93FA0C501837523700C5EDC4 /* Jobs_RENDAAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Jobs_RENDAAppDelegate.h; path = "Supporting Files/Jobs_RENDAAppDelegate.h"; sourceTree = "<group>"; };
-		93FA0C511837523700C5EDC4 /* Jobs_RENDAAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Jobs_RENDAAppDelegate.m; path = "Supporting Files/Jobs_RENDAAppDelegate.m"; sourceTree = "<group>"; };
 		93FA0C521837523700C5EDC4 /* JobsCenter-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "JobsCenter-Info.plist"; path = "Supporting Files/JobsCenter-Info.plist"; sourceTree = "<group>"; };
 		93FA0C531837523700C5EDC4 /* JobsCenter-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "JobsCenter-Prefix.pch"; path = "Supporting Files/JobsCenter-Prefix.pch"; sourceTree = "<group>"; };
 		93FA0C541837523700C5EDC4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Supporting Files/main.m"; sourceTree = "<group>"; };
-		93FA0C551837523700C5EDC4 /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard_iPad.storyboard; path = "Supporting Files/MainStoryboard_iPad.storyboard"; sourceTree = "<group>"; };
-		93FA0C561837523700C5EDC4 /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard_iPhone.storyboard; path = "Supporting Files/MainStoryboard_iPhone.storyboard"; sourceTree = "<group>"; };
 		93FA0C5D1837C41500C5EDC4 /* InfoURLHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfoURLHelper.h; path = Helpers/InfoURLHelper.h; sourceTree = "<group>"; };
 		93FA0C5E1837C41500C5EDC4 /* InfoURLHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoURLHelper.m; path = Helpers/InfoURLHelper.m; sourceTree = "<group>"; };
 		93FA0C621837C57100C5EDC4 /* NotificationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotificationsViewController.h; path = NotificationsTab/NotificationsViewController.h; sourceTree = "<group>"; };
 		93FA0C631837C57100C5EDC4 /* NotificationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NotificationsViewController.m; path = NotificationsTab/NotificationsViewController.m; sourceTree = "<group>"; };
-		93FA0C701837CF6700C5EDC4 /* JobsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JobsViewController.h; path = JobsTab/Controller/JobsViewController.h; sourceTree = "<group>"; };
-		93FA0C711837CF6700C5EDC4 /* JobsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JobsViewController.m; path = JobsTab/Controller/JobsViewController.m; sourceTree = "<group>"; };
 		93FA0C7C1837D43F00C5EDC4 /* blackArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blackArrow.png; path = Resource/blackArrow.png; sourceTree = "<group>"; };
 		93FA0C7D1837D43F00C5EDC4 /* blackArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blackArrow@2x.png"; path = "Resource/blackArrow@2x.png"; sourceTree = "<group>"; };
 		93FA0C7E1837D43F00C5EDC4 /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blueArrow.png; path = Resource/blueArrow.png; sourceTree = "<group>"; };
@@ -165,7 +162,11 @@
 		939146AB1835C472004C4AAE /* JobsCenter */ = {
 			isa = PBXGroup;
 			children = (
-				93FA0C611837C50E00C5EDC4 /* JobsTab */,
+				93A7ECAF183A4D41007835BB /* Jobs_RENDAAppDelegate.h */,
+				93A7ECB0183A4D41007835BB /* Jobs_RENDAAppDelegate.m */,
+				93A7ECB1183A4D41007835BB /* MainStoryboard_iPad.storyboard */,
+				93A7ECB2183A4D41007835BB /* MainStoryboard_iPhone.storyboard */,
+				93FA0C611837C50E00C5EDC4 /* GuidanceTab */,
 				93FA0C601837C4F100C5EDC4 /* NotificationsTab */,
 				93FA0C4E1837516500C5EDC4 /* Helpers */,
 				939146AC1835C472004C4AAE /* Supporting Files */,
@@ -177,13 +178,9 @@
 			isa = PBXGroup;
 			children = (
 				93FA0C4F1837523700C5EDC4 /* InfoPlist.strings */,
-				93FA0C501837523700C5EDC4 /* Jobs_RENDAAppDelegate.h */,
-				93FA0C511837523700C5EDC4 /* Jobs_RENDAAppDelegate.m */,
 				93FA0C521837523700C5EDC4 /* JobsCenter-Info.plist */,
 				93FA0C531837523700C5EDC4 /* JobsCenter-Prefix.pch */,
 				93FA0C541837523700C5EDC4 /* main.m */,
-				93FA0C551837523700C5EDC4 /* MainStoryboard_iPad.storyboard */,
-				93FA0C561837523700C5EDC4 /* MainStoryboard_iPhone.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -233,7 +230,6 @@
 			isa = PBXGroup;
 			children = (
 				93A7ECA8183A0447007835BB /* EnLoadingMoreView */,
-				93A7ECA41839FC00007835BB /* LoadMoreTableFooterView */,
 				93A7EC991839EE29007835BB /* RefreshTableHeaderView */,
 			);
 			name = Lib;
@@ -246,15 +242,6 @@
 				93A7EC9B1839EE65007835BB /* EGORefreshTableHeaderView.m */,
 			);
 			name = RefreshTableHeaderView;
-			sourceTree = "<group>";
-		};
-		93A7ECA41839FC00007835BB /* LoadMoreTableFooterView */ = {
-			isa = PBXGroup;
-			children = (
-				93A7ECA51839FC30007835BB /* LoadMoreTableFooterView.h */,
-				93A7ECA61839FC30007835BB /* LoadMoreTableFooterView.m */,
-			);
-			name = LoadMoreTableFooterView;
 			sourceTree = "<group>";
 		};
 		93A7ECA8183A0447007835BB /* EnLoadingMoreView */ = {
@@ -284,21 +271,21 @@
 			name = NotificationsTab;
 			sourceTree = "<group>";
 		};
-		93FA0C611837C50E00C5EDC4 /* JobsTab */ = {
+		93FA0C611837C50E00C5EDC4 /* GuidanceTab */ = {
 			isa = PBXGroup;
 			children = (
 				93FA0C6F1837CF3B00C5EDC4 /* Delegate */,
 				93FA0C6E1837CF2B00C5EDC4 /* View */,
 				93FA0C6D1837CF1500C5EDC4 /* Controller */,
 			);
-			name = JobsTab;
+			name = GuidanceTab;
 			sourceTree = "<group>";
 		};
 		93FA0C6D1837CF1500C5EDC4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				93FA0C701837CF6700C5EDC4 /* JobsViewController.h */,
-				93FA0C711837CF6700C5EDC4 /* JobsViewController.m */,
+				93A7ECAC183A4C7A007835BB /* GuidanceViewController.h */,
+				93A7ECAD183A4C7A007835BB /* GuidanceViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -390,6 +377,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93FA0C831837D43F00C5EDC4 /* blueArrow@2x.png in Resources */,
+				93A7ECB4183A4D41007835BB /* MainStoryboard_iPad.storyboard in Resources */,
 				93FA0C5F1837C41500C5EDC4 /* InfoURLHelper.m in Resources */,
 				93FA0C8B1837D45500C5EDC4 /* whiteArrow@2x.png in Resources */,
 				93FA0C8A1837D45500C5EDC4 /* whiteArrow.png in Resources */,
@@ -398,10 +386,9 @@
 				93FA0C571837523700C5EDC4 /* InfoPlist.strings in Resources */,
 				939146FE1835C544004C4AAE /* Default.png in Resources */,
 				93FA0C861837D44B00C5EDC4 /* grayArrow.png in Resources */,
+				93A7ECB5183A4D41007835BB /* MainStoryboard_iPhone.storyboard in Resources */,
 				939146FF1835C544004C4AAE /* Default@2x.png in Resources */,
 				93FA0C801837D43F00C5EDC4 /* blackArrow.png in Resources */,
-				93FA0C5C1837523700C5EDC4 /* MainStoryboard_iPhone.storyboard in Resources */,
-				93FA0C5B1837523700C5EDC4 /* MainStoryboard_iPad.storyboard in Resources */,
 				93FA0C811837D43F00C5EDC4 /* blackArrow@2x.png in Resources */,
 				939147001835C544004C4AAE /* first.png in Resources */,
 				939147011835C544004C4AAE /* first@2x.png in Resources */,
@@ -443,13 +430,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93A7ECAE183A4C7A007835BB /* GuidanceViewController.m in Sources */,
 				93A7EC9C1839EE65007835BB /* EGORefreshTableHeaderView.m in Sources */,
 				93A7ECAB183A0470007835BB /* EnLoadingMoreView.m in Sources */,
-				93A7ECA71839FC30007835BB /* LoadMoreTableFooterView.m in Sources */,
-				93FA0C721837CF6700C5EDC4 /* JobsViewController.m in Sources */,
 				93FA0C5A1837523700C5EDC4 /* main.m in Sources */,
 				93FA0C641837C57100C5EDC4 /* NotificationsViewController.m in Sources */,
-				93FA0C581837523700C5EDC4 /* Jobs_RENDAAppDelegate.m in Sources */,
+				93A7ECB3183A4D41007835BB /* Jobs_RENDAAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

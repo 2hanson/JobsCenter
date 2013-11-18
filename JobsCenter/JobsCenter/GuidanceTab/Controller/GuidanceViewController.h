@@ -9,7 +9,7 @@
 #import "EGORefreshTableHeaderView.h"
 #import "EnLoadingMoreView.h"
 
-@interface JobsViewController : UITableViewController <EnLoadingMoreViewDelegate, EGORefreshTableHeaderDelegate, UITableViewDelegate, UITableViewDataSource>{
+@interface GuidanceViewController : UITableViewController <EnLoadingMoreViewDelegate, EGORefreshTableHeaderDelegate, UITableViewDelegate, UITableViewDataSource>{
     
     // 下拉刷新以及上拉更多相关
     EGORefreshTableHeaderView* _refreshHeaderView;
@@ -17,8 +17,5 @@
     BOOL _isHasMore;
     EnLoadingMoreView* _loadingMoreView;
 }
-
-- (void)reloadTableViewDataSource;
-- (void)doneLoadingTableViewData;
 
 @end
