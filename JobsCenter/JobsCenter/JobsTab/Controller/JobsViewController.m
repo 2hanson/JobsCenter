@@ -26,8 +26,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    //为了让下拉刷新能正常工作,http://www.cocoachina.com/bbs/simple/?t154091.html
+    self.edgesForExtendedLayout = UIRectEdgeNone;
 	if (_refreshHeaderView == nil) {
-		
 		EGORefreshTableHeaderView *view = [[EGORefreshTableHeaderView alloc] initWithFrame:CGRectMake(0.0f, 0.0f - self.tableView.bounds.size.height, self.view.frame.size.width, self.tableView.bounds.size.height)];
 		view.delegate = self;
 		[self.tableView addSubview:view];
