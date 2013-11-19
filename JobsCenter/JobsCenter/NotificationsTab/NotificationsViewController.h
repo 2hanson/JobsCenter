@@ -10,4 +10,7 @@
 
 @interface NotificationsViewController : UITableViewController
 
+@property (strong, nonatomic) NSArray *listMessagess;
+
+
 @end

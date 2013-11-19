@@ -50,7 +50,7 @@
         case EnLoadingMoreViewNormalState:{
             [_activityIndicatorView stopAnimating];
             _textLabel.hidden = NO;
-            _textLabel.text = @"Pull up to load more...";
+            _textLabel.text = @"More...";
             self.userInteractionEnabled = YES;
             break;
         }

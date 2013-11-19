@@ -7,12 +7,16 @@
 //
 
 #import "NotificationsViewController.h"
+#import "NotificationsTableCell.h"
+#import "DetailMessageInfoViewController.h"
 
 @interface NotificationsViewController ()
 
 @end
 
 @implementation NotificationsViewController
+
+#define STR(A,B) [NSString stringWithFormat:@"%@",[A objectForKey:@B]]
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -32,6 +36,7 @@
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    [self loadMessages];
 }
 
 - (void)didReceiveMemoryWarning
@@ -46,25 +51,53 @@
 {
 #warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
 #warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    return [self.listMessagess count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    static NSString* NotificationsTableCellIdentifier = @"NotificationsTableCellIdentifier";
     
-    // Configure the cell...
+    NotificationsTableCell *cell = [tableView dequeueReusableCellWithIdentifier:
+                                       NotificationsTableCellIdentifier];
+    if (cell == nil) {
+        NSArray *ibs = [[NSBundle mainBundle] loadNibNamed:@"NotificationsTableCell"
+                                                     owner:self options:nil];
+        cell = [ibs objectAtIndex:0];
+        cell.accessoryType = UITableViewCellAccessoryNone;
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    }
+    NSUInteger row = [indexPath row];
+    NSDictionary *dict=[self.listMessagess objectAtIndex:row];
+    NSString *messageContent = STR(dict,"message");
+    NSString* messageTime = STR(dict, "messageTime");
+    
+    cell.messageTimeLabel.text = messageTime;
+    cell.messageContentLabel.text = messageContent;
     
     return cell;
 }
+
+#pragma mark - Table view delegate
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    DetailMessageInfoViewController *messageDetailInfoVC = [[DetailMessageInfoViewController alloc] initWithNibName:@"DetailMessageInfoView" bundle:nil];
+    NSUInteger row = [indexPath row];
+    
+    NSDictionary *dict=[self.listMessagess objectAtIndex:row];
+    NSString *messagecontent = STR(dict,"message");
+    
+    messageDetailInfoVC.detailMessageInfo = messagecontent;
+    [self.navigationController pushViewController:messageDetailInfoVC animated:YES];
+}
+
 
 /*
 // Override to support conditional editing of the table view.
@@ -116,5 +149,35 @@
 }
 
  */
+
+- (void) loadMessages
+{
+    self.listMessagess=nil;
+    NSMutableArray *rs = [[NSMutableArray alloc] init];
+    
+    for (int i = 0; i < 5; ++i) {
+        NSMutableDictionary *dictionary = [[NSMutableDictionary alloc] init];
+        for (int index = 0; index < 2; ++index)
+        {
+            id columnName = @"message";//[dbHelper columnName:statement columnIndex:index];
+			id columnData = @"hello world";//[dbHelper columnData:statement columnIndex:index];
+            //NSLog(@"%@", [columnName string]);
+			//rchf 2011-1-20
+            if (index == 1) {
+                columnName = @"messageTime";
+                columnData = @"2011-1-20";
+            }
+			if(columnData!=nil&&columnName!=nil)
+            {
+                [dictionary setObject:columnData forKey:columnName];
+            }
+            
+        }
+        
+        [rs addObject:dictionary];
+    }
+    
+    self.listMessagess = [rs copy];
+}
 
 @end
