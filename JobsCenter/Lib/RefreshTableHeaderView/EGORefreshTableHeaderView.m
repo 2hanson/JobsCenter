@@ -120,7 +120,7 @@
 	switch (aState) {
 		case EGOOPullRefreshPulling:
 			
-			_statusLabel.text = @"Refresh_Undo_can_refresh";
+			_statusLabel.text = @"Release to refresh...";
 			[CATransaction begin];
 			[CATransaction setAnimationDuration:FLIP_ANIMATION_DURATION];
 			_arrowImage.transform = CATransform3DMakeRotation((M_PI / 180.0) * 180.0f, 0.0f, 0.0f, 1.0f);
@@ -136,7 +136,7 @@
 				[CATransaction commit];
 			}
 			
-			_statusLabel.text = @"Refresh_Drop_can_refresh";
+			_statusLabel.text = @"Pull down to refresh...";
 			[_activityView stopAnimating];
 			[CATransaction begin];
 			[CATransaction setValue:(id)kCFBooleanTrue forKey:kCATransactionDisableActions];
@@ -149,7 +149,7 @@
 			break;
 		case EGOOPullRefreshLoading:
 			
-			_statusLabel.text = @"Refresh_Loading";
+			_statusLabel.text = @"Loading...";
 			[_activityView startAnimating];
 			[CATransaction begin];
 			[CATransaction setValue:(id)kCFBooleanTrue forKey:kCATransactionDisableActions];

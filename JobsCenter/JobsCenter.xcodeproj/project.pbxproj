@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93684159183AF25B00A63472 /* StrategyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93684158183AF25B00A63472 /* StrategyViewController.m */; };
+		9368415C183AF34800A63472 /* NotificationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9368415B183AF34800A63472 /* NotificationsViewController.m */; };
+		9368415F183AF41A00A63472 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9368415E183AF41A00A63472 /* MoreViewController.m */; };
+		93684162183AF46000A63472 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93684161183AF46000A63472 /* InfoViewController.m */; };
+		9368416E183AFBE400A63472 /* GuidanceTabIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9368416A183AFBE400A63472 /* GuidanceTabIcon.png */; };
+		9368416F183AFBE400A63472 /* InfoTabIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9368416B183AFBE400A63472 /* InfoTabIcon.png */; };
+		93684170183AFBE400A63472 /* MoreTabIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9368416C183AFBE400A63472 /* MoreTabIcon.png */; };
+		93684171183AFBE400A63472 /* StrategyTabIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9368416D183AFBE400A63472 /* StrategyTabIcon.png */; };
+		93684173183AFCAB00A63472 /* NotificationsTabIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 93684172183AFCAB00A63472 /* NotificationsTabIcon.png */; };
+		93684179183B00A100A63472 /* GuidanceTabIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93684174183B00A100A63472 /* GuidanceTabIcon@2x.png */; };
+		9368417A183B00A100A63472 /* InfoTabIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93684175183B00A100A63472 /* InfoTabIcon@2x.png */; };
+		9368417B183B00A100A63472 /* MoreTabIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93684176183B00A100A63472 /* MoreTabIcon@2x.png */; };
+		9368417C183B00A100A63472 /* NotificationsTabIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93684177183B00A100A63472 /* NotificationsTabIcon@2x.png */; };
+		9368417D183B00A100A63472 /* StrategyTabIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93684178183B00A100A63472 /* StrategyTabIcon@2x.png */; };
 		939146A61835C472004C4AAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939146A51835C472004C4AAE /* UIKit.framework */; };
 		939146A81835C472004C4AAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939146A71835C472004C4AAE /* Foundation.framework */; };
 		939146AA1835C472004C4AAE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939146A91835C472004C4AAE /* CoreGraphics.framework */; };
@@ -32,7 +46,6 @@
 		93FA0C591837523700C5EDC4 /* JobsCenter-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93FA0C521837523700C5EDC4 /* JobsCenter-Info.plist */; };
 		93FA0C5A1837523700C5EDC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FA0C541837523700C5EDC4 /* main.m */; };
 		93FA0C5F1837C41500C5EDC4 /* InfoURLHelper.m in Resources */ = {isa = PBXBuildFile; fileRef = 93FA0C5E1837C41500C5EDC4 /* InfoURLHelper.m */; };
-		93FA0C641837C57100C5EDC4 /* NotificationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FA0C631837C57100C5EDC4 /* NotificationsViewController.m */; };
 		93FA0C801837D43F00C5EDC4 /* blackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 93FA0C7C1837D43F00C5EDC4 /* blackArrow.png */; };
 		93FA0C811837D43F00C5EDC4 /* blackArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93FA0C7D1837D43F00C5EDC4 /* blackArrow@2x.png */; };
 		93FA0C821837D43F00C5EDC4 /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 93FA0C7E1837D43F00C5EDC4 /* blueArrow.png */; };
@@ -55,6 +68,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		93684157183AF25B00A63472 /* StrategyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StrategyViewController.h; path = StrategyTab/StrategyViewController.h; sourceTree = "<group>"; };
+		93684158183AF25B00A63472 /* StrategyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StrategyViewController.m; path = StrategyTab/StrategyViewController.m; sourceTree = "<group>"; };
+		9368415A183AF34800A63472 /* NotificationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotificationsViewController.h; path = NotificationsTab/NotificationsViewController.h; sourceTree = "<group>"; };
+		9368415B183AF34800A63472 /* NotificationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NotificationsViewController.m; path = NotificationsTab/NotificationsViewController.m; sourceTree = "<group>"; };
+		9368415D183AF41A00A63472 /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoreViewController.h; path = MoreTab/MoreViewController.h; sourceTree = "<group>"; };
+		9368415E183AF41A00A63472 /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoreViewController.m; path = MoreTab/MoreViewController.m; sourceTree = "<group>"; };
+		93684160183AF46000A63472 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfoViewController.h; path = InfoTab/InfoViewController.h; sourceTree = "<group>"; };
+		93684161183AF46000A63472 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoViewController.m; path = InfoTab/InfoViewController.m; sourceTree = "<group>"; };
+		9368416A183AFBE400A63472 /* GuidanceTabIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GuidanceTabIcon.png; path = Resource/TabIcons/GuidanceTabIcon.png; sourceTree = "<group>"; };
+		9368416B183AFBE400A63472 /* InfoTabIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = InfoTabIcon.png; path = Resource/TabIcons/InfoTabIcon.png; sourceTree = "<group>"; };
+		9368416C183AFBE400A63472 /* MoreTabIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MoreTabIcon.png; path = Resource/TabIcons/MoreTabIcon.png; sourceTree = "<group>"; };
+		9368416D183AFBE400A63472 /* StrategyTabIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StrategyTabIcon.png; path = Resource/TabIcons/StrategyTabIcon.png; sourceTree = "<group>"; };
+		93684172183AFCAB00A63472 /* NotificationsTabIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NotificationsTabIcon.png; path = Resource/TabIcons/NotificationsTabIcon.png; sourceTree = "<group>"; };
+		93684174183B00A100A63472 /* GuidanceTabIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GuidanceTabIcon@2x.png"; path = "Resource/TabIcons/GuidanceTabIcon@2x.png"; sourceTree = "<group>"; };
+		93684175183B00A100A63472 /* InfoTabIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "InfoTabIcon@2x.png"; path = "Resource/TabIcons/InfoTabIcon@2x.png"; sourceTree = "<group>"; };
+		93684176183B00A100A63472 /* MoreTabIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "MoreTabIcon@2x.png"; path = "Resource/TabIcons/MoreTabIcon@2x.png"; sourceTree = "<group>"; };
+		93684177183B00A100A63472 /* NotificationsTabIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "NotificationsTabIcon@2x.png"; path = "Resource/TabIcons/NotificationsTabIcon@2x.png"; sourceTree = "<group>"; };
+		93684178183B00A100A63472 /* StrategyTabIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "StrategyTabIcon@2x.png"; path = "Resource/TabIcons/StrategyTabIcon@2x.png"; sourceTree = "<group>"; };
 		939146A21835C472004C4AAE /* JobsCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobsCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		939146A51835C472004C4AAE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		939146A71835C472004C4AAE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -88,8 +119,6 @@
 		93FA0C541837523700C5EDC4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Supporting Files/main.m"; sourceTree = "<group>"; };
 		93FA0C5D1837C41500C5EDC4 /* InfoURLHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfoURLHelper.h; path = Helpers/InfoURLHelper.h; sourceTree = "<group>"; };
 		93FA0C5E1837C41500C5EDC4 /* InfoURLHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoURLHelper.m; path = Helpers/InfoURLHelper.m; sourceTree = "<group>"; };
-		93FA0C621837C57100C5EDC4 /* NotificationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotificationsViewController.h; path = NotificationsTab/NotificationsViewController.h; sourceTree = "<group>"; };
-		93FA0C631837C57100C5EDC4 /* NotificationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NotificationsViewController.m; path = NotificationsTab/NotificationsViewController.m; sourceTree = "<group>"; };
 		93FA0C7C1837D43F00C5EDC4 /* blackArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blackArrow.png; path = Resource/blackArrow.png; sourceTree = "<group>"; };
 		93FA0C7D1837D43F00C5EDC4 /* blackArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blackArrow@2x.png"; path = "Resource/blackArrow@2x.png"; sourceTree = "<group>"; };
 		93FA0C7E1837D43F00C5EDC4 /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blueArrow.png; path = Resource/blueArrow.png; sourceTree = "<group>"; };
@@ -126,6 +155,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		93684154183AF17800A63472 /* StrategyTab */ = {
+			isa = PBXGroup;
+			children = (
+				93684157183AF25B00A63472 /* StrategyViewController.h */,
+				93684158183AF25B00A63472 /* StrategyViewController.m */,
+			);
+			name = StrategyTab;
+			sourceTree = "<group>";
+		};
+		93684155183AF1DB00A63472 /* InfoTab */ = {
+			isa = PBXGroup;
+			children = (
+				93684160183AF46000A63472 /* InfoViewController.h */,
+				93684161183AF46000A63472 /* InfoViewController.m */,
+			);
+			name = InfoTab;
+			sourceTree = "<group>";
+		};
+		93684156183AF1F200A63472 /* MoreTab */ = {
+			isa = PBXGroup;
+			children = (
+				9368415D183AF41A00A63472 /* MoreViewController.h */,
+				9368415E183AF41A00A63472 /* MoreViewController.m */,
+			);
+			name = MoreTab;
+			sourceTree = "<group>";
+		};
+		93684169183AFBCC00A63472 /* TabIcons */ = {
+			isa = PBXGroup;
+			children = (
+				93684174183B00A100A63472 /* GuidanceTabIcon@2x.png */,
+				93684175183B00A100A63472 /* InfoTabIcon@2x.png */,
+				93684176183B00A100A63472 /* MoreTabIcon@2x.png */,
+				93684177183B00A100A63472 /* NotificationsTabIcon@2x.png */,
+				93684178183B00A100A63472 /* StrategyTabIcon@2x.png */,
+				93684172183AFCAB00A63472 /* NotificationsTabIcon.png */,
+				9368416A183AFBE400A63472 /* GuidanceTabIcon.png */,
+				9368416B183AFBE400A63472 /* InfoTabIcon.png */,
+				9368416C183AFBE400A63472 /* MoreTabIcon.png */,
+				9368416D183AFBE400A63472 /* StrategyTabIcon.png */,
+			);
+			name = TabIcons;
+			sourceTree = "<group>";
+		};
 		939146991835C472004C4AAE = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +235,9 @@
 		939146AB1835C472004C4AAE /* JobsCenter */ = {
 			isa = PBXGroup;
 			children = (
+				93684156183AF1F200A63472 /* MoreTab */,
+				93684155183AF1DB00A63472 /* InfoTab */,
+				93684154183AF17800A63472 /* StrategyTab */,
 				93A7ECAF183A4D41007835BB /* Jobs_RENDAAppDelegate.h */,
 				93A7ECB0183A4D41007835BB /* Jobs_RENDAAppDelegate.m */,
 				93A7ECB1183A4D41007835BB /* MainStoryboard_iPad.storyboard */,
@@ -207,6 +283,7 @@
 		939146EE1835C47A004C4AAE /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				93684169183AFBCC00A63472 /* TabIcons */,
 				93FA0C881837D45500C5EDC4 /* whiteArrow.png */,
 				93FA0C891837D45500C5EDC4 /* whiteArrow@2x.png */,
 				93FA0C841837D44B00C5EDC4 /* grayArrow.png */,
@@ -265,8 +342,8 @@
 		93FA0C601837C4F100C5EDC4 /* NotificationsTab */ = {
 			isa = PBXGroup;
 			children = (
-				93FA0C621837C57100C5EDC4 /* NotificationsViewController.h */,
-				93FA0C631837C57100C5EDC4 /* NotificationsViewController.m */,
+				9368415A183AF34800A63472 /* NotificationsViewController.h */,
+				9368415B183AF34800A63472 /* NotificationsViewController.m */,
 			);
 			name = NotificationsTab;
 			sourceTree = "<group>";
@@ -352,6 +429,11 @@
 				CLASSPREFIX = Jobs.RENDA;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = Jobs;
+				TargetAttributes = {
+					939146A11835C472004C4AAE = {
+						DevelopmentTeam = U4C6BW693M;
+					};
+				};
 			};
 			buildConfigurationList = 9391469D1835C472004C4AAE /* Build configuration list for PBXProject "JobsCenter" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -377,25 +459,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				93FA0C831837D43F00C5EDC4 /* blueArrow@2x.png in Resources */,
+				93684171183AFBE400A63472 /* StrategyTabIcon.png in Resources */,
 				93A7ECB4183A4D41007835BB /* MainStoryboard_iPad.storyboard in Resources */,
+				93684170183AFBE400A63472 /* MoreTabIcon.png in Resources */,
+				9368416F183AFBE400A63472 /* InfoTabIcon.png in Resources */,
+				9368416E183AFBE400A63472 /* GuidanceTabIcon.png in Resources */,
 				93FA0C5F1837C41500C5EDC4 /* InfoURLHelper.m in Resources */,
 				93FA0C8B1837D45500C5EDC4 /* whiteArrow@2x.png in Resources */,
+				9368417D183B00A100A63472 /* StrategyTabIcon@2x.png in Resources */,
 				93FA0C8A1837D45500C5EDC4 /* whiteArrow.png in Resources */,
 				939146FD1835C544004C4AAE /* Default-568h@2x.png in Resources */,
+				9368417B183B00A100A63472 /* MoreTabIcon@2x.png in Resources */,
 				93FA0C871837D44B00C5EDC4 /* grayArrow@2x.png in Resources */,
 				93FA0C571837523700C5EDC4 /* InfoPlist.strings in Resources */,
 				939146FE1835C544004C4AAE /* Default.png in Resources */,
 				93FA0C861837D44B00C5EDC4 /* grayArrow.png in Resources */,
+				9368417A183B00A100A63472 /* InfoTabIcon@2x.png in Resources */,
 				93A7ECB5183A4D41007835BB /* MainStoryboard_iPhone.storyboard in Resources */,
 				939146FF1835C544004C4AAE /* Default@2x.png in Resources */,
 				93FA0C801837D43F00C5EDC4 /* blackArrow.png in Resources */,
 				93FA0C811837D43F00C5EDC4 /* blackArrow@2x.png in Resources */,
 				939147001835C544004C4AAE /* first.png in Resources */,
+				9368417C183B00A100A63472 /* NotificationsTabIcon@2x.png in Resources */,
 				939147011835C544004C4AAE /* first@2x.png in Resources */,
 				939147021835C544004C4AAE /* second.png in Resources */,
 				93FA0C821837D43F00C5EDC4 /* blueArrow.png in Resources */,
 				93FA0C591837523700C5EDC4 /* JobsCenter-Info.plist in Resources */,
 				939147031835C544004C4AAE /* second@2x.png in Resources */,
+				93684173183AFCAB00A63472 /* NotificationsTabIcon.png in Resources */,
+				93684179183B00A100A63472 /* GuidanceTabIcon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,11 +522,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93684159183AF25B00A63472 /* StrategyViewController.m in Sources */,
+				9368415F183AF41A00A63472 /* MoreViewController.m in Sources */,
+				93684162183AF46000A63472 /* InfoViewController.m in Sources */,
 				93A7ECAE183A4C7A007835BB /* GuidanceViewController.m in Sources */,
 				93A7EC9C1839EE65007835BB /* EGORefreshTableHeaderView.m in Sources */,
+				9368415C183AF34800A63472 /* NotificationsViewController.m in Sources */,
 				93A7ECAB183A0470007835BB /* EnLoadingMoreView.m in Sources */,
 				93FA0C5A1837523700C5EDC4 /* main.m in Sources */,
-				93FA0C641837C57100C5EDC4 /* NotificationsViewController.m in Sources */,
 				93A7ECB3183A4D41007835BB /* Jobs_RENDAAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -530,10 +625,14 @@
 		939146E91835C472004C4AAE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JobsCenter/Supporting Files/JobsCenter-Prefix.pch";
 				INFOPLIST_FILE = "JobsCenter/Supporting Files/JobsCenter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -541,10 +640,14 @@
 		939146EA1835C472004C4AAE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JobsCenter/Supporting Files/JobsCenter-Prefix.pch";
 				INFOPLIST_FILE = "JobsCenter/Supporting Files/JobsCenter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

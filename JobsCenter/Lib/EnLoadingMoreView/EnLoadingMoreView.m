@@ -50,7 +50,7 @@
         case EnLoadingMoreViewNormalState:{
             [_activityIndicatorView stopAnimating];
             _textLabel.hidden = NO;
-            _textLabel.text = @"Refresh_More";
+            _textLabel.text = @"Pull up to load more...";
             self.userInteractionEnabled = YES;
             break;
         }
@@ -64,7 +64,7 @@
         case EnLoadingMoreViewNoreMoreState:{
             [_activityIndicatorView stopAnimating];
             _textLabel.hidden = NO;
-            _textLabel.text = @"Refresh_NOData";
+            _textLabel.text = @"No more data...";
             self.userInteractionEnabled = NO;
             break;
         }

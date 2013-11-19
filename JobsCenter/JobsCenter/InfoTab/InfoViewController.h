@@ -1,5 +1,5 @@
 //
-//  NotificationsViewController.h
+//  InfoViewController.h
 //  JobsCenter
 //
 //  Created by hanson on 11/19/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NotificationsViewController : UITableViewController
+@interface InfoViewController : UIViewController
 
 @end
