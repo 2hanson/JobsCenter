@@ -33,6 +33,10 @@
     /*self.edgesForExtendedLayout = UIRectEdgeNone;
     self.navigationController.navigationBar.translucent = NO;
     self.tabBarController.tabBar.translucent = NO;*/
+    self.tableInfos = [[UITableView alloc] initWithFrame:CGRectMake(8, 105, [[UIScreen mainScreen]bounds].size.width, [[UIScreen mainScreen]bounds].size.height-150)];
+    [self.tableInfos setDelegate:self];
+    [self.tableInfos setDataSource:self];
+    [self.view addSubview:self.tableInfos];
     
 	if (_refreshHeaderView == nil) {
 		_refreshHeaderView = [[EGORefreshTableHeaderView alloc] initWithFrame:CGRectMake(0.0f, 0.0f - self.tableInfos.bounds.size.height, self.view.frame.size.width, self.tableInfos.bounds.size.height)];
