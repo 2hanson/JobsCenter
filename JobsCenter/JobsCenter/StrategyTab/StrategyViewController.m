@@ -28,6 +28,8 @@
     [super viewDidLoad];
     //为了让下拉刷新能正常工作,http://www.cocoachina.com/bbs/simple/?t154091.html
     self.edgesForExtendedLayout = UIRectEdgeNone;
+    self.navigationController.navigationBar.translucent = NO;
+    self.tabBarController.tabBar.translucent = NO;
     
 	if (_refreshHeaderView == nil) {
 		_refreshHeaderView = [[EGORefreshTableHeaderView alloc] initWithFrame:CGRectMake(0.0f, 0.0f - self.tableView.bounds.size.height, self.view.frame.size.width, self.tableView.bounds.size.height)];
@@ -169,7 +171,7 @@
 
 - (void)enLoadingMoreViewTriggerRefresh:(EnLoadingMoreView *)view {
     _reloading = YES;
-    [self performSelector:@selector(doneLoadingMoreData) withObject:nil afterDelay:3.0];
+    [self performSelector:@selector(doneLoadingMoreData) withObject:nil afterDelay:1.0];
     //[self performSelectorInBackground:@selector(loadingMoreDataRequest) withObject:nil]; // 在子线程中请求数据
 }
 
@@ -177,7 +179,7 @@
 #pragma mark EGORefreshTableHeaderDelegate Methods
 - (void)egoRefreshTableHeaderDidTriggerRefresh:(EGORefreshTableHeaderView*)view {
 	_reloading = YES;
-    [self performSelector:@selector(doneLoadingReloadData) withObject:nil afterDelay:3.0];
+    [self performSelector:@selector(doneLoadingReloadData) withObject:nil afterDelay:1.0];
     //[self performSelectorInBackground:@selector(reloadDataRequest) withObject:nil]; // 在子线程中请求数据
 }
 
