@@ -7,7 +7,8 @@
 //
 
 #import "InfoViewController.h"
-
+#import "RecruitmentCell.h"
+#import "EmploymentCell.h"
 @interface InfoViewController ()
 
 @end
@@ -67,6 +68,7 @@
     _isHasMore = YES;
     _reloading = YES;
     [_refreshHeaderView setLoadingStateWithScrollView:self.tableInfos];
+    [self.tableInfos reloadData];
     //[self.newsView reloadType:self.segment_title.selectedSegmentIndex+1];
 }
 
@@ -79,28 +81,57 @@
 #pragma mark - Table view data source
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
     // Return the number of sections.
     return 3;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
     // Return the number of rows in the section.
+    [self.tableInfos setRowHeight:75.0f];
     return 4;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+    if (segmentedTitle.selectedSegmentIndex == 0) {
+        static NSString *CellIdentifier = @"EmploymentCellIdentifier";
+        UINib *nib = [UINib nibWithNibName:@"EmploymentCell" bundle:nil];
+        [tableView registerNib:nib forCellReuseIdentifier:@"EmploymentCellIdentifier"];
+        EmploymentCell *cell = [tableView dequeueReusableCellWithIdentifier:
+                                 CellIdentifier];
+        
+        if (cell == nil) {
+            cell = [[EmploymentCell alloc]
+                    initWithStyle:UITableViewCellStyleDefault
+                    reuseIdentifier:CellIdentifier];
+        }
+        return cell;
     }
-    // Configure the cell...
+    if (segmentedTitle.selectedSegmentIndex == 1) {
+        static NSString *CellIdentifier = @"RecruitmentCellIdentifier";
+        UINib *nib = [UINib nibWithNibName:@"RecruitmentCell" bundle:nil];
+        [tableView registerNib:nib forCellReuseIdentifier:@"RecruitmentCellIdentifier"];
+        RecruitmentCell *cell = [tableView dequeueReusableCellWithIdentifier:
+                                 CellIdentifier];
     
-    return cell;
+        if (cell == nil) {
+            cell = [[RecruitmentCell alloc]
+                    initWithStyle:UITableViewCellStyleDefault
+                    reuseIdentifier:CellIdentifier];
+        }
+        return cell;
+    }
+    else {
+        static NSString *CellIdentifier = @"Cell";
+        UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+        if (cell == nil) {
+            cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        }
+        // Configure the cell...
+        
+        return cell;
+    }
 }
 
 #pragma mark -

@@ -50,6 +50,14 @@
 		93A7ECB3183A4D41007835BB /* Jobs_RENDAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A7ECB0183A4D41007835BB /* Jobs_RENDAAppDelegate.m */; };
 		93A7ECB4183A4D41007835BB /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93A7ECB1183A4D41007835BB /* MainStoryboard_iPad.storyboard */; };
 		93A7ECB5183A4D41007835BB /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93A7ECB2183A4D41007835BB /* MainStoryboard_iPhone.storyboard */; };
+		93F646FE183D9AFB0002F8D1 /* RecruitmentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F646FD183D9AFB0002F8D1 /* RecruitmentCell.m */; };
+		93F64702183D9B590002F8D1 /* RecruitmentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93F64701183D9B590002F8D1 /* RecruitmentCell.xib */; };
+		93F64707183DA1C40002F8D1 /* star_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 93F64703183DA1C40002F8D1 /* star_empty.png */; };
+		93F64708183DA1C40002F8D1 /* star_empty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93F64704183DA1C40002F8D1 /* star_empty@2x.png */; };
+		93F64709183DA1C40002F8D1 /* star_full.png in Resources */ = {isa = PBXBuildFile; fileRef = 93F64705183DA1C40002F8D1 /* star_full.png */; };
+		93F6470A183DA1C40002F8D1 /* star_full@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93F64706183DA1C40002F8D1 /* star_full@2x.png */; };
+		93F6470D183DA68F0002F8D1 /* EmploymentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F6470C183DA68F0002F8D1 /* EmploymentCell.m */; };
+		93F64711183DA6C80002F8D1 /* EmploymentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93F64710183DA6C80002F8D1 /* EmploymentCell.xib */; };
 		93FA0C571837523700C5EDC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93FA0C4F1837523700C5EDC4 /* InfoPlist.strings */; };
 		93FA0C591837523700C5EDC4 /* JobsCenter-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93FA0C521837523700C5EDC4 /* JobsCenter-Info.plist */; };
 		93FA0C5A1837523700C5EDC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FA0C541837523700C5EDC4 /* main.m */; };
@@ -131,6 +139,16 @@
 		93A7ECB0183A4D41007835BB /* Jobs_RENDAAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jobs_RENDAAppDelegate.m; sourceTree = "<group>"; };
 		93A7ECB1183A4D41007835BB /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		93A7ECB2183A4D41007835BB /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		93F646FC183D9AFB0002F8D1 /* RecruitmentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecruitmentCell.h; path = InfoTab/RecruitmentCell.h; sourceTree = "<group>"; };
+		93F646FD183D9AFB0002F8D1 /* RecruitmentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecruitmentCell.m; path = InfoTab/RecruitmentCell.m; sourceTree = "<group>"; };
+		93F64701183D9B590002F8D1 /* RecruitmentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RecruitmentCell.xib; path = InfoTab/RecruitmentCell.xib; sourceTree = "<group>"; };
+		93F64703183DA1C40002F8D1 /* star_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star_empty.png; path = Resource/star_empty.png; sourceTree = "<group>"; };
+		93F64704183DA1C40002F8D1 /* star_empty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star_empty@2x.png"; path = "Resource/star_empty@2x.png"; sourceTree = "<group>"; };
+		93F64705183DA1C40002F8D1 /* star_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star_full.png; path = Resource/star_full.png; sourceTree = "<group>"; };
+		93F64706183DA1C40002F8D1 /* star_full@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star_full@2x.png"; path = "Resource/star_full@2x.png"; sourceTree = "<group>"; };
+		93F6470B183DA68F0002F8D1 /* EmploymentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmploymentCell.h; path = InfoTab/EmploymentCell.h; sourceTree = "<group>"; };
+		93F6470C183DA68F0002F8D1 /* EmploymentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmploymentCell.m; path = InfoTab/EmploymentCell.m; sourceTree = "<group>"; };
+		93F64710183DA6C80002F8D1 /* EmploymentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EmploymentCell.xib; path = InfoTab/EmploymentCell.xib; sourceTree = "<group>"; };
 		93FA0C4F1837523700C5EDC4 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = "Supporting Files/InfoPlist.strings"; sourceTree = "<group>"; };
 		93FA0C521837523700C5EDC4 /* JobsCenter-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "JobsCenter-Info.plist"; path = "Supporting Files/JobsCenter-Info.plist"; sourceTree = "<group>"; };
 		93FA0C531837523700C5EDC4 /* JobsCenter-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "JobsCenter-Prefix.pch"; path = "Supporting Files/JobsCenter-Prefix.pch"; sourceTree = "<group>"; };
@@ -185,8 +203,14 @@
 		93684155183AF1DB00A63472 /* InfoTab */ = {
 			isa = PBXGroup;
 			children = (
+				93F64710183DA6C80002F8D1 /* EmploymentCell.xib */,
+				93F64701183D9B590002F8D1 /* RecruitmentCell.xib */,
 				93684160183AF46000A63472 /* InfoViewController.h */,
 				93684161183AF46000A63472 /* InfoViewController.m */,
+				93F646FC183D9AFB0002F8D1 /* RecruitmentCell.h */,
+				93F646FD183D9AFB0002F8D1 /* RecruitmentCell.m */,
+				93F6470B183DA68F0002F8D1 /* EmploymentCell.h */,
+				93F6470C183DA68F0002F8D1 /* EmploymentCell.m */,
 			);
 			name = InfoTab;
 			sourceTree = "<group>";
@@ -322,6 +346,10 @@
 		939146EE1835C47A004C4AAE /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				93F64703183DA1C40002F8D1 /* star_empty.png */,
+				93F64704183DA1C40002F8D1 /* star_empty@2x.png */,
+				93F64705183DA1C40002F8D1 /* star_full.png */,
+				93F64706183DA1C40002F8D1 /* star_full@2x.png */,
 				938D441C183BB8B200608668 /* Default-568h@2x.png */,
 				938D441D183BB8B200608668 /* Default.png */,
 				938D441E183BB8B200608668 /* Default@2x.png */,
@@ -507,8 +535,10 @@
 				93A7ECB4183A4D41007835BB /* MainStoryboard_iPad.storyboard in Resources */,
 				93684170183AFBE400A63472 /* MoreTabIcon.png in Resources */,
 				938D4420183BB8B200608668 /* Default.png in Resources */,
+				93F64708183DA1C40002F8D1 /* star_empty@2x.png in Resources */,
 				9368416F183AFBE400A63472 /* InfoTabIcon.png in Resources */,
 				9368416E183AFBE400A63472 /* GuidanceTabIcon.png in Resources */,
+				93F64707183DA1C40002F8D1 /* star_empty.png in Resources */,
 				93FA0C5F1837C41500C5EDC4 /* InfoURLHelper.m in Resources */,
 				93FA0C8B1837D45500C5EDC4 /* whiteArrow@2x.png in Resources */,
 				938D440F183BAC4500608668 /* pushlogo.png in Resources */,
@@ -520,6 +550,9 @@
 				9368417B183B00A100A63472 /* MoreTabIcon@2x.png in Resources */,
 				93FA0C871837D44B00C5EDC4 /* grayArrow@2x.png in Resources */,
 				93FA0C571837523700C5EDC4 /* InfoPlist.strings in Resources */,
+				93F64709183DA1C40002F8D1 /* star_full.png in Resources */,
+				93F64711183DA6C80002F8D1 /* EmploymentCell.xib in Resources */,
+				93F64702183D9B590002F8D1 /* RecruitmentCell.xib in Resources */,
 				93FA0C861837D44B00C5EDC4 /* grayArrow.png in Resources */,
 				9368417A183B00A100A63472 /* InfoTabIcon@2x.png in Resources */,
 				93A7ECB5183A4D41007835BB /* MainStoryboard_iPhone.storyboard in Resources */,
@@ -532,6 +565,7 @@
 				938D441F183BB8B200608668 /* Default-568h@2x.png in Resources */,
 				939147011835C544004C4AAE /* first@2x.png in Resources */,
 				939147021835C544004C4AAE /* second.png in Resources */,
+				93F6470A183DA1C40002F8D1 /* star_full@2x.png in Resources */,
 				93FA0C821837D43F00C5EDC4 /* blueArrow.png in Resources */,
 				93FA0C591837523700C5EDC4 /* JobsCenter-Info.plist in Resources */,
 				939147031835C544004C4AAE /* second@2x.png in Resources */,
@@ -574,6 +608,7 @@
 			files = (
 				93684159183AF25B00A63472 /* StrategyViewController.m in Sources */,
 				9368415F183AF41A00A63472 /* MoreViewController.m in Sources */,
+				93F646FE183D9AFB0002F8D1 /* RecruitmentCell.m in Sources */,
 				93684162183AF46000A63472 /* InfoViewController.m in Sources */,
 				938D4415183BB15100608668 /* DetailMessageInfoViewController.m in Sources */,
 				938D4403183BAB2300608668 /* NotificationsTableCell.m in Sources */,
@@ -583,6 +618,7 @@
 				93A7ECAB183A0470007835BB /* EnLoadingMoreView.m in Sources */,
 				93FA0C5A1837523700C5EDC4 /* main.m in Sources */,
 				93A7ECB3183A4D41007835BB /* Jobs_RENDAAppDelegate.m in Sources */,
+				93F6470D183DA68F0002F8D1 /* EmploymentCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
