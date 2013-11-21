@@ -9,6 +9,8 @@
 #import "InfoViewController.h"
 #import "RecruitmentCell.h"
 #import "EmploymentCell.h"
+#import "DetailInfoViewController.h"
+
 @interface InfoViewController ()
 
 @end
@@ -132,6 +134,14 @@
         
         return cell;
     }
+}
+
+#pragma mark - Table view delegate
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    DetailInfoViewController *detailInfoVC = [[DetailInfoViewController alloc] initWithNibName:@"DetailInfoView" bundle:nil];
+    
+    [self.navigationController pushViewController:detailInfoVC animated:YES];
 }
 
 #pragma mark -

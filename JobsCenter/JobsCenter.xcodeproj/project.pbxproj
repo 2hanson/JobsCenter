@@ -50,6 +50,8 @@
 		93A7ECB3183A4D41007835BB /* Jobs_RENDAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A7ECB0183A4D41007835BB /* Jobs_RENDAAppDelegate.m */; };
 		93A7ECB4183A4D41007835BB /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93A7ECB1183A4D41007835BB /* MainStoryboard_iPad.storyboard */; };
 		93A7ECB5183A4D41007835BB /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93A7ECB2183A4D41007835BB /* MainStoryboard_iPhone.storyboard */; };
+		93DED68E183DC2A400D3A671 /* DetailInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DED68C183DC2A400D3A671 /* DetailInfoViewController.m */; };
+		93DED68F183DC2A400D3A671 /* DetailInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93DED68D183DC2A400D3A671 /* DetailInfoView.xib */; };
 		93F646FE183D9AFB0002F8D1 /* RecruitmentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F646FD183D9AFB0002F8D1 /* RecruitmentCell.m */; };
 		93F64702183D9B590002F8D1 /* RecruitmentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93F64701183D9B590002F8D1 /* RecruitmentCell.xib */; };
 		93F64707183DA1C40002F8D1 /* star_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 93F64703183DA1C40002F8D1 /* star_empty.png */; };
@@ -139,6 +141,9 @@
 		93A7ECB0183A4D41007835BB /* Jobs_RENDAAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jobs_RENDAAppDelegate.m; sourceTree = "<group>"; };
 		93A7ECB1183A4D41007835BB /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		93A7ECB2183A4D41007835BB /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		93DED68B183DC2A400D3A671 /* DetailInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailInfoViewController.h; path = InfoTab/DetailInfoViewController.h; sourceTree = "<group>"; };
+		93DED68C183DC2A400D3A671 /* DetailInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailInfoViewController.m; path = InfoTab/DetailInfoViewController.m; sourceTree = "<group>"; };
+		93DED68D183DC2A400D3A671 /* DetailInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DetailInfoView.xib; path = InfoTab/DetailInfoView.xib; sourceTree = "<group>"; };
 		93F646FC183D9AFB0002F8D1 /* RecruitmentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecruitmentCell.h; path = InfoTab/RecruitmentCell.h; sourceTree = "<group>"; };
 		93F646FD183D9AFB0002F8D1 /* RecruitmentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecruitmentCell.m; path = InfoTab/RecruitmentCell.m; sourceTree = "<group>"; };
 		93F64701183D9B590002F8D1 /* RecruitmentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RecruitmentCell.xib; path = InfoTab/RecruitmentCell.xib; sourceTree = "<group>"; };
@@ -211,6 +216,9 @@
 				93F646FD183D9AFB0002F8D1 /* RecruitmentCell.m */,
 				93F6470B183DA68F0002F8D1 /* EmploymentCell.h */,
 				93F6470C183DA68F0002F8D1 /* EmploymentCell.m */,
+				93DED68B183DC2A400D3A671 /* DetailInfoViewController.h */,
+				93DED68C183DC2A400D3A671 /* DetailInfoViewController.m */,
+				93DED68D183DC2A400D3A671 /* DetailInfoView.xib */,
 			);
 			name = InfoTab;
 			sourceTree = "<group>";
@@ -568,6 +576,7 @@
 				93F6470A183DA1C40002F8D1 /* star_full@2x.png in Resources */,
 				93FA0C821837D43F00C5EDC4 /* blueArrow.png in Resources */,
 				93FA0C591837523700C5EDC4 /* JobsCenter-Info.plist in Resources */,
+				93DED68F183DC2A400D3A671 /* DetailInfoView.xib in Resources */,
 				939147031835C544004C4AAE /* second@2x.png in Resources */,
 				93684173183AFCAB00A63472 /* NotificationsTabIcon.png in Resources */,
 				93684179183B00A100A63472 /* GuidanceTabIcon@2x.png in Resources */,
@@ -607,6 +616,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93684159183AF25B00A63472 /* StrategyViewController.m in Sources */,
+				93DED68E183DC2A400D3A671 /* DetailInfoViewController.m in Sources */,
 				9368415F183AF41A00A63472 /* MoreViewController.m in Sources */,
 				93F646FE183D9AFB0002F8D1 /* RecruitmentCell.m in Sources */,
 				93684162183AF46000A63472 /* InfoViewController.m in Sources */,
