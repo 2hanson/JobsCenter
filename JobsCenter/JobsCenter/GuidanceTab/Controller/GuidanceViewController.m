@@ -52,6 +52,14 @@
     
 }
 
+- (void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    //加载数据
+    _isHasMore = YES;
+    _reloading = YES;
+    [_refreshHeaderView setLoadingStateWithScrollView:self.tableView];
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
