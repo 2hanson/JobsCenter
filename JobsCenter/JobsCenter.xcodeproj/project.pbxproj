@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		931109D91841F7560077B55B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 931109D71841F7560077B55B /* Icon.png */; };
+		931109DA1841F7560077B55B /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 931109D81841F7560077B55B /* Icon@2x.png */; };
 		93684159183AF25B00A63472 /* StrategyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93684158183AF25B00A63472 /* StrategyViewController.m */; };
 		9368415C183AF34800A63472 /* NotificationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9368415B183AF34800A63472 /* NotificationsViewController.m */; };
 		9368415F183AF41A00A63472 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9368415E183AF41A00A63472 /* MoreViewController.m */; };
@@ -86,6 +88,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		931109D71841F7560077B55B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		931109D81841F7560077B55B /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		93684157183AF25B00A63472 /* StrategyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StrategyViewController.h; path = StrategyTab/StrategyViewController.h; sourceTree = "<group>"; };
 		93684158183AF25B00A63472 /* StrategyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StrategyViewController.m; path = StrategyTab/StrategyViewController.m; sourceTree = "<group>"; };
 		9368415A183AF34800A63472 /* NotificationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotificationsViewController.h; path = NotificationsTab/NotificationsViewController.h; sourceTree = "<group>"; };
@@ -349,6 +353,8 @@
 		939146EE1835C47A004C4AAE /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				931109D71841F7560077B55B /* Icon.png */,
+				931109D81841F7560077B55B /* Icon@2x.png */,
 				93F64703183DA1C40002F8D1 /* star_empty.png */,
 				93F64704183DA1C40002F8D1 /* star_empty@2x.png */,
 				93F64705183DA1C40002F8D1 /* star_full.png */,
@@ -554,6 +560,7 @@
 				93F64708183DA1C40002F8D1 /* star_empty@2x.png in Resources */,
 				9368416F183AFBE400A63472 /* InfoTabIcon.png in Resources */,
 				9368416E183AFBE400A63472 /* GuidanceTabIcon.png in Resources */,
+				931109D91841F7560077B55B /* Icon.png in Resources */,
 				93F64707183DA1C40002F8D1 /* star_empty.png in Resources */,
 				93FA0C5F1837C41500C5EDC4 /* InfoURLHelper.m in Resources */,
 				93FA0C8B1837D45500C5EDC4 /* whiteArrow@2x.png in Resources */,
@@ -564,6 +571,7 @@
 				938D4421183BB8B200608668 /* Default@2x.png in Resources */,
 				93FA0C8A1837D45500C5EDC4 /* whiteArrow.png in Resources */,
 				938D4407183BAB9800608668 /* NotificationsTableCell.xib in Resources */,
+				931109DA1841F7560077B55B /* Icon@2x.png in Resources */,
 				9368417B183B00A100A63472 /* MoreTabIcon@2x.png in Resources */,
 				93FA0C871837D44B00C5EDC4 /* grayArrow@2x.png in Resources */,
 				93FA0C571837523700C5EDC4 /* InfoPlist.strings in Resources */,
